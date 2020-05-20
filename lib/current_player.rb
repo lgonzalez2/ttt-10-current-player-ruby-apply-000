@@ -10,7 +10,6 @@ def turn_count(board)
     else 
       count = count 
     end
-    turns = count 
-    turns
   end
+  count
 end
