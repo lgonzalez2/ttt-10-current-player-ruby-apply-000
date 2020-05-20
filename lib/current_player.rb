@@ -1,12 +1,16 @@
 
 
-def turn_count(board1)
+def turn_count(board)
   counter = 0 
   
-  board1.each do |space|
+  board.each do |space|
     
-    if space == "X" || "O"
+    if space == "X"
       counter += 1 
+    elsif space == "O"
+      counter += 1 
+    else 
+      counter = counter
     end
     
     counter
