@@ -1,6 +1,6 @@
 
 
-def turn_count(board1)
+def turn_count(board)
   counter = 0 
   
   board.each do |space|
