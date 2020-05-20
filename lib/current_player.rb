@@ -7,6 +7,8 @@ def turn_count(board)
     
     if space == "X" || "O"
       count += 1 
+    else 
+      count = count 
     end
     
     count
