@@ -13,8 +13,8 @@ def turn_count(board)
       counter = counter
     end
     
-    counter
     
   end
+  
   counter
 end
